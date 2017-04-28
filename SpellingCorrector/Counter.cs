@@ -1,0 +1,7 @@
+﻿namespace SpellingCorrector
+{
+    class Counter
+    {
+
+    }
+}
