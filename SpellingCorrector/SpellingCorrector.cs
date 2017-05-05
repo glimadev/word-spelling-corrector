@@ -61,7 +61,7 @@ namespace SpellingCorrector
         {
             string[] candidates = Known(new string[] { word });
 
-            if (candidates.Count > 0) return candidates;
+            if (candidates.Count() > 0) return candidates;
 
             candidates = Known(Edits1(word));
 
